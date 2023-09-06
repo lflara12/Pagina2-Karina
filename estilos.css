@@ -1,0 +1,39 @@
+body{
+    background-image: url(fondo.avif);
+}
+.navbar{
+    height: 100px;
+}
+.navbar a{
+    font-size: 30px;
+}
+.slide{
+    background-image: url(/comida.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.carousel-inner img{
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+.seccion2{
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: auto auto auto;
+}
+.card {
+    box-shadow: 10px 10px rgba(0,0,0,.5);
+    background-color: bisque;
+    margin: 30px 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card h1{
+    color: black;
+}
+.card p{
+    font-size: x-large;
+}
